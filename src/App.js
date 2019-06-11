@@ -80,9 +80,9 @@ class App extends Component {
       })
     })
       .then(r => r.json())
-      .then(pizzas => {
+      .then(pizza => {
         this.setState({
-          pizzas: [...updatePizza, currentCopy]
+          pizzas: [...updatePizza, pizza]
         })
       })
 
