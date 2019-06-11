@@ -67,8 +67,8 @@ class App extends Component {
       return pizza.topping !== currentCopy.topping
     })
 
-    fetch(API, {
-      method: "POST",
+    fetch(API + `/${currentCopy.id}`, {
+      method: "PATCH",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
@@ -82,7 +82,7 @@ class App extends Component {
       .then(r => r.json())
       .then(pizza => {
         this.setState({
-          pizzas: [...updatePizza, pizza]
+          pizzas: [pizza, ...updatePizza]
         })
       })
 

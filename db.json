@@ -3,14 +3,14 @@
     {
       "id": 1,
       "topping": "Plain",
-      "size": "Small",
+      "size": "Medium",
       "vegetarian": true
     },
     {
       "id": 2,
       "topping": "Pepperoni",
-      "size": "Small",
-      "vegetarian": false
+      "size": "Medium",
+      "vegetarian": true
     },
     {
       "id": 3,
@@ -59,112 +59,6 @@
       "topping": "Chicken",
       "size": "Large",
       "vegetarian": true
-    },
-    {
-      "currentCopy": {
-        "topping": "hello"
-      },
-      "id": 11
-    },
-    {
-      "topping": "sdffsd",
-      "id": 12
-    },
-    {
-      "topping": "hello",
-      "id": 13
-    },
-    {
-      "topping": "hello last test",
-      "size": "Large",
-      "vegetarian": true,
-      "id": 14
-    },
-    {
-      "topping": "hello last test",
-      "size": "Medium",
-      "vegetarian": true,
-      "id": 15
-    },
-    {
-      "topping": "helllsdsdds",
-      "id": 16
-    },
-    {
-      "topping": "sdfsdf",
-      "id": 17
-    },
-    {
-      "topping": "sdfsdfsfdsdf",
-      "id": 18
-    },
-    {
-      "topping": "mnlkv",
-      "id": 19
-    },
-    {
-      "topping": "sdfsdf",
-      "id": 20
-    },
-    {
-      "topping": "sdfsfd",
-      "id": 21
-    },
-    {
-      "topping": "sdfsfd",
-      "vegetarian": true,
-      "id": 22
-    },
-    {
-      "topping": "sdfsfd",
-      "size": "Medium",
-      "vegetarian": true,
-      "id": 23
-    },
-    {
-      "topping": "sdfsdf",
-      "vegetarian": true,
-      "id": 24
-    },
-    {
-      "topping": "sdfds",
-      "id": 25
-    },
-    {
-      "topping": "hello",
-      "size": "Small",
-      "vegetarian": false,
-      "id": 26
-    },
-    {
-      "topping": "hello",
-      "size": "Medium",
-      "vegetarian": false,
-      "id": 27
-    },
-    {
-      "topping": "hello",
-      "size": "Medium",
-      "vegetarian": true,
-      "id": 28
-    },
-    {
-      "topping": "hellosdfsdf",
-      "size": "Medium",
-      "vegetarian": true,
-      "id": 29
-    },
-    {
-      "topping": "sdfsdfsdf",
-      "size": "Small",
-      "vegetarian": false,
-      "id": 30
-    },
-    {
-      "topping": "dsf",
-      "size": "Small",
-      "vegetarian": false,
-      "id": 31
     }
   ]
 }
