@@ -7,7 +7,10 @@ const API = 'http://localhost:3000/pizzas'
 class App extends Component {
   state = {
     pizzas: [],
-    currentPizza: {}
+    currentPizza: {
+      size: "Small",
+      vegetarian: false
+    }
   }
 
   componentDidMount() {
